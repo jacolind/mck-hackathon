@@ -1,0 +1,32 @@
+
+
+```
+# Create the hyperparameter grid
+c_space = np.logspace(-5, 8, 15)
+param_grid_logreg = {'C': c_space, 'penalty': ['l1', 'l2']}
+# Instantiate the logistic logregression classifier: loglogreg
+logreg = Logisticlogregression()
+# Instantiate the GridSearchCV object
+logreg_cv = GridSearchCV(logreg, param_grid_logreg, cv=cv, scoring=scoring)
+
+# first time you run script, below should be false.
+# Fit it to the training data
+load_logreg = False
+# load model or fit
+if load_logreg == True:
+    logreg_cv = joblib.load("logreg_cv.pkl")
+else:
+    t1 = datetime.datetime.now()
+    logreg_cv.fit(Xm, ym)
+    t2 = datetime.datetime.now()
+    logreg_td = t2-t1
+    print("Fitting time H:MM:SS ", logreg_td)
+    # save model
+    joblib.dump(logreg_cv, "logreg_cv.pkl")
+
+# Print the optimal parameters and best score
+print("logreg")
+print("Tuned Parameter: {}".format(logreg_cv.best_params_))
+print("Tuned Accuracy: {}".format(logreg_cv.best_score_))
+# params C 0.44, penatly l2. score 0.876
+```
