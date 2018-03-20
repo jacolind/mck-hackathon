@@ -1,3 +1,5 @@
+read "ML mckhack postmortem notes1"
+
 convert the above approach to a  pipelines. see `notes_pipe.py`
 
 add an eda section in the bottom - an appendix of how i "realized" each thing should be cleaned.
