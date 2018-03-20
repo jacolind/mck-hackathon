@@ -1,6 +1,4 @@
-'''
 below are my extracts from the docs on how to use it. these are especially useful since @Stormblessed said they worked for him 
-'''
 
 ## xgboost subsampling
 
