@@ -4,17 +4,16 @@ McKinsey Hackathon: Digital Banking
 
 ## About the hackathon
 
-This was my first hackathon.
-
 [Analytics Vidhya](https://www.analyticsvidhya.com/)
 hosted a competition called
 [_McKinsey Analytics Online Hackathon: Sales Excellence_](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/). The dataset was released and each participant had 24 hours to submit their best scoring model. Evaluation critera was ROC AUC.
 
-I ended up 155 out of thousands participants, which I deem an OK score. See the  [leaderboard](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/pvt_lb)
+This was my first hackathon.
+I ended up 155 out of thousands participants, which I consider to be a decent outcome, given my non-existent experience, weak preparation and the little time I spent on this task. 
+See the  [leaderboard](https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-online-hackathon-ii/pvt_lb)
 
-My AUC score 0.7859
-
-Winner score 0.8581
+* My AUC score 0.7859
+* Winner score 0.8581
 
 ## Problem statement
 
