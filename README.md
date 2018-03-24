@@ -1,5 +1,4 @@
 # mck-hackathon
-<<<<<<< HEAD
 
 McKinsey Hackathon: Digital Banking
 
@@ -26,14 +25,10 @@ They source leads through various channels like search, display, email campaigns
 They now want to identify the leads' segments having a higher conversion ratio (lead to buying a product) so that they can specifically target these potential customers through additional channels and re-marketing. They have *provided a partial data set for salaried customers from the last 3 months*. They also capture basic details about customers. We need to *identify the segment of customers with a high probability of conversion in the next 30 days.*
 predict proba, gärna based on channel => actionable
 
-
 ## Method
+
+GradientBoostingClassifier
 
 ## Important files
 
 `do5.ipynb`
-=======
-McKinsey Hackathon: Digital Banking
-
-My solution is found in the `.ipynb` file. The problem is found in the `/case-intro` folder.
->>>>>>> f523c05ef6a96fe2032599ffd924ead2d6bb422d
