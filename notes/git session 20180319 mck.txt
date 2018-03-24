@@ -1,0 +1,118 @@
+j@jl1:~/Dropbox/git/mck-hackathon$ git remote add origin https://github.com/jacolind/mck-hackathon.git
+j@jl1:~/Dropbox/git/mck-hackathon$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/jacolind/mck-hackathon.git'
+j@jl1:~/Dropbox/git/mck-hackathon$ cd ..
+j@jl1:~/Dropbox/git$ git clone https://github.com/jacolind/mck-hackathon
+Cloning into 'mck-hackathon'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+j@jl1:~/Dropbox/git$ cd mck-hackathon
+j@jl1:~/Dropbox/git/mck-hackathon$ ls
+j@jl1:~/Dropbox/git/mck-hackathon$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	case-intro/
+	do5.ipynb
+	do5todo.md
+	html-output/
+	notes/
+	rawdata.tar.gz
+	submissions/
+	test.csv
+	train.csv
+
+nothing added to commit but untracked files present (use "git add" to track)
+j@jl1:~/Dropbox/git/mck-hackathon$ git add *
+j@jl1:~/Dropbox/git/mck-hackathon$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   case-intro/Sample_Solution_Yrq0zGh.csv
+	new file:   case-intro/casetext.md
+	new file:   case-intro/test_StcJUVI.zip
+	new file:   case-intro/train_5ZizJYZ.zip
+	new file:   case-intro/variabledescr.xlsx
+	new file:   case-intro/variables.txt
+	new file:   do5.ipynb
+	new file:   do5todo.md
+	new file:   html-output/do5_20180121.html
+	new file:   notes/crossval.py
+	new file:   notes/hyperparam.txt
+	new file:   notes/notes_pipe.py
+	new file:   notes/paramgrid.py
+	new file:   notes/training_imp_pipe_1.py
+	new file:   notes/voting.py
+	new file:   notes/xgboost.py
+	new file:   rawdata.tar.gz
+	new file:   submissions/position.png
+	new file:   submissions/submit-0017-cv.csv
+	new file:   submissions/submit-0022.csv
+	new file:   submissions/submit-1852.csv
+	new file:   submissions/submit-1957.csv
+	new file:   submissions/submit-2010.csv
+	new file:   submissions/submit-2057.csv
+	new file:   submissions/submit-2333.csv
+	new file:   submissions/submit-2349-cols1.csv
+	new file:   submissions/submit.2353-colsvip.csv
+	new file:   submissions/submit.csv
+	new file:   submissions/submit_final.csv
+	new file:   submissions/submitted_code.py
+	new file:   test.csv
+	new file:   train.csv
+
+j@jl1:~/Dropbox/git/mck-hackathon$ git commit -m "Add all files and folders from the hackathon."
+[master (root-commit) 2518895] Add all files and folders from the hackathon.
+ 32 files changed, 445024 insertions(+)
+ create mode 100644 case-intro/Sample_Solution_Yrq0zGh.csv
+ create mode 100644 case-intro/casetext.md
+ create mode 100644 case-intro/test_StcJUVI.zip
+ create mode 100644 case-intro/train_5ZizJYZ.zip
+ create mode 100644 case-intro/variabledescr.xlsx
+ create mode 100644 case-intro/variables.txt
+ create mode 100644 do5.ipynb
+ create mode 100644 do5todo.md
+ create mode 100644 html-output/do5_20180121.html
+ create mode 100644 notes/crossval.py
+ create mode 100644 notes/hyperparam.txt
+ create mode 100644 notes/notes_pipe.py
+ create mode 100644 notes/paramgrid.py
+ create mode 100644 notes/training_imp_pipe_1.py
+ create mode 100644 notes/voting.py
+ create mode 100644 notes/xgboost.py
+ create mode 100644 rawdata.tar.gz
+ create mode 100644 submissions/position.png
+ create mode 100644 submissions/submit-0017-cv.csv
+ create mode 100644 submissions/submit-0022.csv
+ create mode 100644 submissions/submit-1852.csv
+ create mode 100644 submissions/submit-1957.csv
+ create mode 100644 submissions/submit-2010.csv
+ create mode 100644 submissions/submit-2057.csv
+ create mode 100644 submissions/submit-2333.csv
+ create mode 100644 submissions/submit-2349-cols1.csv
+ create mode 100644 submissions/submit.2353-colsvip.csv
+ create mode 100644 submissions/submit.csv
+ create mode 100644 submissions/submit_final.csv
+ create mode 100644 submissions/submitted_code.py
+ create mode 100644 test.csv
+ create mode 100644 train.csv
+j@jl1:~/Dropbox/git/mck-hackathon$ git push origin master
+Username for 'https://github.com': jacolind
+Password for 'https://jacolind@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/jacolind/mck-hackathon/'
+j@jl1:~/Dropbox/git/mck-hackathon$ git push origin master
+Username for 'https://github.com': jacolind
+Password for 'https://jacolind@github.com':
+^C
+j@jl1:~/Dropbox/git/mck-hackathon$ ^C
+git
