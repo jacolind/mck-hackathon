@@ -1,4 +1,5 @@
 # mck-hackathon
+<<<<<<< HEAD
 
 McKinsey Hackathon: Digital Banking
 
@@ -31,3 +32,8 @@ predict proba, gärna based on channel => actionable
 ## Important files
 
 `do5.ipynb`
+=======
+McKinsey Hackathon: Digital Banking
+
+My solution is found in the `.ipynb` file. The problem is found in the `/case-intro` folder.
+>>>>>>> f523c05ef6a96fe2032599ffd924ead2d6bb422d
