@@ -31,3 +31,7 @@ GradientBoostingClassifier
 ## Important files
 
 `do5.ipynb`
+
+## Status 
+
+This repo can be considered "done" since the hackathon is over. On the other hand, improvements can be made - see the TODO file.
